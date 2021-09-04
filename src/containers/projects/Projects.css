@@ -1,0 +1,28 @@
+.project-header-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.project-header-subtitle{
+  font-size: 20px !important;
+  margin-top: 2rem !important;
+}
+
+.project-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .project-header-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .project-header-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
