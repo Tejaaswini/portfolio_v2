@@ -1,0 +1,38 @@
+.vector {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap:1rem 1rem;
+  padding: 2rem;
+  margin-left: 1rem !important;
+}
+.vector img{
+  width: 25rem !important;
+  border-radius: 15px;
+  height: 25rem !important;
+  object-fit: cover;
+}
+.vector-main{
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+.vector-heading{
+  font-size: 40px;
+}
+.button-view{
+  /* margin-left: 42rem; */
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .vector img{
+    width: 20rem !important;
+    border-radius: 15px;
+    height: 25rem !important;
+    object-fit: cover;
+    align-items: center;
+  }
+  .vector-heading{
+    text-align: center;
+  }
+}
