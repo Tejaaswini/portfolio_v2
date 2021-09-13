@@ -1,8 +1,4 @@
 {
-  "homepage": "https://Tejaaswini.github.io/portfolio",
-  "name": "potfolio",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
     "apollo-boost": "^0.4.4",
