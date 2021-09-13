@@ -1,12 +1,10 @@
-﻿import React from "react";
+﻿import { from } from "apollo-link";
+import React from "react";
 
 import Lottie from 'react-lottie';
-import animationData from '../../components/lottie/8306-programming-animation.json';
-
+import animationData from '../../components/lottie/63487-programming-computer.json';
 import "./Greeting.css";
 
-import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
 
 export default function Greeting() {
   const defaultOptions = {
@@ -20,32 +18,19 @@ export default function Greeting() {
   return (
     <div className="greet-main" id="greeting">
       <div className="greeting-main">
+      <h1 className="title">COMING SOON!</h1>
       <div className="greeting-image-div">
         <Lottie options={defaultOptions}
                   className="lottie"
-                  height={300}
-                  width={300}
-                /> 
+                  height={600}
+                  width={800}
+                />
         </div>
-        <div className="greeting-text-div"> 
-          <div>
-          <h1 className="greeting-mainText">
-              {" "}
-              {greeting.mainTitle}
-              {" "}
-            </h1>
-            <h1 className="greeting-text">
-              {" "}
-              {greeting.title}
-              {" "}
-            </h1>
-            <p className="greeting-text-p subTitle">I Churn <span style={{color:"#ff8906"}}>Ideas</span> into <span style={{color:"#e53170"}}>Reality</span>!</p>
-            <div className="button-greeting-div">
-              <Button text="Let's Connect!" href="#contact" />
-            </div>
-          </div>
+        <div className="link">
+          <a href ="https://github.com/Tejaaswini" target="_blank"
+            rel="noopener noreferrer"
+            className="github">GITHUB</a>
         </div>
-        
       </div>
     </div>
   );
