@@ -1,5 +1,4 @@
-﻿import { from } from "apollo-link";
-import React from "react";
+﻿import React from "react";
 
 import Lottie from 'react-lottie';
 import animationData from '../../components/lottie/63487-programming-computer.json';
