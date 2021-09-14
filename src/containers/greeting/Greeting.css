@@ -1,23 +1,88 @@
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.greeting-mainText{
+  font-size: 45px !important;
+    color:#a7a9be;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 50px;
+  line-height: 1.1;
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
 .greeting-image-div {
   max-width: 100%;
   height: auto;
   margin-top: 3rem !important;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
 }
-.title{
-  font-size: 6rem;
-  text-align: center;
+.greeting-text-div{
+  margin-top: 2rem !important;
 }
-.github{
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-  margin-left: 25rem !important;
+.greeting-text-p{
+  color:#a7a9be !important;
 }
-.link{
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greeting-mainText{
+    text-align: center;
+    font-size: 25px !important;
+  }
 }
