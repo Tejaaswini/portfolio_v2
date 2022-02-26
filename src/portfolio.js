@@ -11,11 +11,11 @@ const socialMediaLinks = {
   gmail: "tejnaren07@gmail.com",
   // gitlab: "https://gitlab.com/tejaaswini",
   medium: "https://medium.com/@tejnaren07",
-  dribble: "https://dribbble.com/tejnaren",
-  instagram: "https://www.instagram.com/tej_naren/",
+  // dribble: "https://dribbble.com/tejnaren",
+  instagram: "https://www.instagram.com/messy_dodo/",
   twitter: "https://twitter.com/tejnaren07",
-  calendly:"https://calendly.com/tejnaren",
-  codepen:"https://codepen.io/tejaaswini",
+  // calendly:"https://calendly.com/tejnaren",
+  // codepen:"https://codepen.io/tejaaswini",
 };
 
 const skillsSection = {
@@ -69,10 +69,16 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Developer",
+      company: "GALE Partners",
+      companylogo: require("./assets/images/gale.jpg"),
+      date: "Febuary 2022 - Present",
+    },
+    {
       role: "Platform Developer",
       company: "Follo Platforms",
       companylogo: require("./assets/images/follo.jpeg"),
-      date: "Febuary 2021 - Present",
+      date: "Febuary 2021 - January 2022",
     },
     {
       role: "Frontend Developer Intern",
@@ -117,7 +123,7 @@ const workExperiences = {
 };
 
 const projectSection = {
-  title: "Fun Projects",
+  title: "Projects",
   subtitle: "Playing around and experimenting cool stuff!!", 
 
   project: [

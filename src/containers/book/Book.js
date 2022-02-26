@@ -21,7 +21,7 @@ export default function Book() {
         </Fade>
         <Fade right duration={1000}>
           <div className="book-text-div">
-            <h1 className="book-heading">Some Flexing</h1>
+            <h1 className="book-heading">Flexing</h1>
 
             <p className="book-text-subtitle">
               Ever gone through hundred and ten resources for blockchain and

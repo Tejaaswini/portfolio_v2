@@ -9,7 +9,7 @@ export default function Vectors() {
     <div className="vector-main">
       <Fade bottom duration={1000} distance="20px">
         <p className="vector-heading" align="center">
-          Some Vectors!
+          Vectors/Illustrations
         </p>
         <div className="vector">
           <img src={require("../../assets/images/lion.jpg")} alt="" />
@@ -18,7 +18,7 @@ export default function Vectors() {
         </div>
         <div className="button-view">
           <a
-            href="https://www.instagram.com/tej_naren/"
+            href="https://www.instagram.com/messy_dodo/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}

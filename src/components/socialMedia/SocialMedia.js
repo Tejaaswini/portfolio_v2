@@ -5,7 +5,7 @@ import { socialMediaLinks } from "../../portfolio";
 export default function socialMedia() {
   return (
     <>
-      <p className="socialMedia-title">Let's have a Chat!</p>
+      <p className="socialMedia-title">Let's have a Chat</p>
       <div className="social-media-div">
         {socialMediaLinks.github ? (
           <a
@@ -66,7 +66,7 @@ export default function socialMedia() {
           </a>
         ) : null}
 
-        {socialMediaLinks.dribble ? (
+        {/* {socialMediaLinks.dribble ? (
           <a
             href={socialMediaLinks.dribble}
             className="icon-button dribble"
@@ -76,7 +76,7 @@ export default function socialMedia() {
             <i className="fab fa-dribbble"></i>
             <span></span>
           </a>
-        ) : null}
+        ) : null} */}
 
         {socialMediaLinks.instagram ? (
           <a
@@ -111,7 +111,7 @@ export default function socialMedia() {
             <span></span>
           </a>
         ) : null} */}
-        {socialMediaLinks.codepen ? (
+        {/* {socialMediaLinks.codepen ? (
           <a
             href={socialMediaLinks.codepen}
             className="icon-button github"
@@ -121,7 +121,7 @@ export default function socialMedia() {
             <i className="fab fa-codepen"></i>
             <span></span>
           </a>
-        ) : null}
+        ) : null} */}
       </div>
     </>
   );
